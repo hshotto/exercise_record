@@ -7,7 +7,6 @@ import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-import { setPriority } from 'os';
 
 const localizer = momentLocalizer(moment);
 
